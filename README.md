@@ -1,7 +1,8 @@
-Minecraft Forge France theme for NodeBB
+Salt Rice theme for NodeBB
 ====================
 
-A NodeBB theme built for [Minecraft Forge France](https://www.minecraftforgefrance.fr/).
-This theme depend on [persona](https://github.com/NodeBB/nodebb-theme-persona).
+A NodeBB theme built for [Salt Rice](c4sg.sg/salt_rice).
+This theme is forked from [nodebb-theme-mff](https://github.com/MinecraftForgeFrance/nodebb-theme-mff) 
+and depend on [persona](https://github.com/NodeBB/nodebb-theme-persona).
 
 ![](screenshot.png)

@@ -1,8 +1,8 @@
 {
-    "id": "nodebb-theme-mff",
-    "name": "NodeBB Theme MFF",
-    "description": "Minecraft Forge France V4 theme for NodeBB.",
-    "url": "https://github.com/MinecraftForgeFrance/nodebb-theme-mff.git",
-    "screenshot": "screenshot.png",
+    "id": "nodebb-theme-saltrice",
+    "name": "NodeBB Theme Salt Rice",
+    "description": "Salt Rice V0.1 theme for NodeBB.",
+    "url": "https://github.com/code-for-singapore/nodebb-theme-saltrice.git",
+    "screenshot": "saltrice.svg",
     "baseTheme": "nodebb-theme-persona"
 }

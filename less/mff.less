@@ -7,10 +7,10 @@
 
 // Banner
 #banner {
-	background: url(/plugins/nodebb-theme-mff/images/background.jpg);
+	background: url(/plugins/nodebb-theme-saltrice/images/banner.svg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 200px;
+	height: 400px;
 	background-origin: content-box;
 	width: 100%;
 	top: -25px;
@@ -18,6 +18,27 @@
 	left: auto;
 	right: 0;
 }
+  
+@media (min-width: 650px) {
+	.subhead h3 {
+	  font-size: calc(12pt + 3pt);
+	}
+}
+
+@media (min-width: 1024px) {
+	.subhead h3 {
+	  font-size: calc(12pt + 8pt);
+	}
+  }
+  
+  .subhead {
+	font-weight: 400;
+  }
+
+  .font-yellow {
+	color: #ffc529;
+  }
+
 
 // make the forum larger on desktop
 @media (min-width: @screen-lg-min) {
@@ -30,6 +51,22 @@
 		top: -15px;
 	}
 }
+
+body {
+	@media (min-width: 979px)
+	{
+		padding-top: 20px;
+	}
+
+	@media (max-width: 979px)
+	{
+		padding-top: 20px;
+		padding-bottom: 50px;
+	}
+
+	min-height: 100%;
+}
+
 
 @import 'mff/navbar';
 @import 'mff/footer';
